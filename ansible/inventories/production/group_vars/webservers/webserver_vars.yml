@@ -1,0 +1,10 @@
+---
+  db:
+    url: "{{_vault['db']['url']}}"
+    driver: com.mysql.jdbc.Driver
+    user: "{{_vault['db']['user']}}"
+    password: "{{_vault['db']['password']}}"
+
+  mailchimp:
+    lists:
+      subscribe: 05c0e98feb

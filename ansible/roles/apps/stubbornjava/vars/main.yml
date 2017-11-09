@@ -1,0 +1,5 @@
+---
+  supervisor:
+    app_name: stubbornjava
+    app_directory: /home/ec2-user/apps/stubbornjava
+    app_command: java8 -Denv=prod -Xmx640m -cp 'stubbornjava-all.jar' com.stubbornjava.webapp.StubbornJavaWebApp
